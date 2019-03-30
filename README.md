@@ -27,3 +27,15 @@
 * * selectAll, insertOne, and updateOne functions
 * * * create "querystring" variable
 * * export (via "module.exports")
+
+* burger.js
+
+* * import connection into orm (use 'require' function)
+* * selectAll, insertOne, and updateOne functions based on orm.js
+* * export (via "module.exports")
+
+* burgercontrollers.js
+
+* * import express and burger.js
+* * selectAll, insertOne, and updateOne functions based on orm.js
+* * export router
