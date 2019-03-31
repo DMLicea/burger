@@ -17,21 +17,21 @@ var connection;
   }
 
 
-// connection.connect(function(err) 
-// {
+connection.connect(function(err) 
+{
 
-//   if (err) 
-//   {
+  if (err) 
+  {
 
-//     console.error("error connecting: " + err.stack);
+    console.error("error connecting: " + err.stack);
 
-//     return;
+    return;
 
-//   }
+  }
 
-//   console.log("connected as id " + connection.threadId);
+  console.log("connected as id " + connection.threadId);
 
-// });
+});
 
 //connection export
 module.exports = connection;
