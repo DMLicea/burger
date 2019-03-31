@@ -1,6 +1,10 @@
 
-#bd {
 
-    background-color: aliceblue;
-    
+body {
+    width: 75%;
+    margin: 0 auto; 
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+   background-color: palevioletred;
 }

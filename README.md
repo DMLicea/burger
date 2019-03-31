@@ -39,3 +39,9 @@
 * * import express and burger.js
 * * selectAll, insertOne, and updateOne functions based on orm.js
 * * export router
+
+* * ![alt text](public/assets/img/ex.png "Description goes here")
+
+* * ![alt text](public/assets/img/ex2.png "Description goes here")
+
+error i received whenever i tried to add a new burger. couldn't figure it out.
